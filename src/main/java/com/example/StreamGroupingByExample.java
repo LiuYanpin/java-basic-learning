@@ -1,5 +1,7 @@
 package com.example;
 
+import com.example.model.Fruit;
+
 import java.util.List;
 import java.util.Map;
 import java.util.Set;

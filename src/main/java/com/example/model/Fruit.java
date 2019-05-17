@@ -1,4 +1,4 @@
-package com.example;
+package com.example.model;
 
 public class Fruit {
     private String name;
@@ -8,18 +8,6 @@ public class Fruit {
     public Fruit(String name, Integer quantity, Integer price) {
         this.name = name;
         this.quantity = quantity;
-        this.price = price;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
-    }
-
-    public void setPrice(Integer price) {
         this.price = price;
     }
 
